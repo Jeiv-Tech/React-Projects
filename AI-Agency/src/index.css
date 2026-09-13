@@ -9,3 +9,7 @@
 @theme {
   --color-primary: #5044e5;
 }
+
+@text-color {
+  --color-main: black;
+}
