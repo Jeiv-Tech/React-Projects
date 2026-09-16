@@ -15,3 +15,7 @@
 @text-color {
   --color-main: black;
 }
+
+@text-title-color {
+  --color-main: black;
+}
