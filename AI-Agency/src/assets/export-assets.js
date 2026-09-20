@@ -42,3 +42,5 @@ export const TeamData = [
 ];
 
 export const assets = [];
+
+export const assets2 = [];
