@@ -41,6 +41,28 @@ export const TeamData = [
   },
 ];
 
-export const assets = [];
+import Facebook_icon from "./Facebook_icon.svg";
+import Instagram_icon from "./Instagram_icon.svg";
+import email_icon from "./email_icon.svg";
+import Airbnd_Logo from "./Airbnd_Logo.png";
+import Coinbase_Logo from "./Coinbase_Logo.png";
+import Microsoft_Logo from "./Microsoft_Logo.png";
+import Zoom_Logo from "./Zoom_Logo.png";
+import Google_Logo from "./Google_Logo.png";
+import Rakuten_Logo from "./Rakuten_Logo.png";
+import White_Theme_Dashboard from "./White_Theme_Dashboard.png";
+import Dark_Theme_Dashboard from "./Dark_Theme_Dashboard.png";
 
-export const assets2 = [];
+export const assets = [
+  Facebook_icon,
+  Instagram_icon,
+  email_icon,
+  Airbnd_Logo,
+  Coinbase_Logo,
+  Microsoft_Logo,
+  Zoom_Logo,
+  Google_Logo,
+  Rakuten_Logo,
+  White_Theme_Dashboard,
+  Dark_Theme_Dashboard,
+];
