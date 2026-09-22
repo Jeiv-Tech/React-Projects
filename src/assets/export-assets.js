@@ -18,8 +18,9 @@ import Dark_Theme_Icon3 from "./Dark_Theme_Icon3.png";
 import White_Theme_Icon4 from "./White_Theme_Icon4.png";
 import Dark_Theme_Icon4 from "./Dark_Theme_Icon4.png";
 import Work_Dashboard_Management from "./Work_Dashboard_Management.png";
-import Work_Fitness_App from "./Work_Fitness_App.png";
-import Work_Mobile_App from "./Work_Mobile_App.png";
+// import Work_Dashboard_Management from "./Work_Dashboard_Management.png";
+// import Work_Fitness_App from "./Work_Fitness_App.png";
+// import Work_Mobile_App from "./Work_Mobile_App.png";
 
 export const assets = [
   Facebook_icon,
@@ -41,9 +42,9 @@ export const assets = [
   Dark_Theme_Icon3,
   White_Theme_Icon4,
   Dark_Theme_Icon4,
-  Work_Dashboard_Management,
-  Work_Fitness_App,
-  Work_Mobile_App,
+  // Work_Dashboard_Management,
+  // Work_Fitness_App,
+  // Work_Mobile_App,
 ];
 
 export const TeamData = [
