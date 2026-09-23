@@ -1,4 +1,3 @@
-// All the images
 import Facebook_icon from "./Facebook_icon.svg";
 import Instagram_icon from "./Instagram_icon.svg";
 import email_icon from "./email_icon.svg";
@@ -22,7 +21,6 @@ import Work_Dashboard_Management from "./Work_Dashboard_Management.png";
 import Work_Fitness_App from "./Work_Fitness_App.png";
 import Work_Mobile_App from "./Work_Mobile_App.png";
 
-// All the assets
 export const assets = [
   Facebook_icon,
   Instagram_icon,
@@ -47,52 +45,8 @@ export const assets = [
   Work_Fitness_App,
   Work_Mobile_App,
 ];
-
 // All the characters name
 export const TeamData = [
-  {
-    name: "Haley Carter",
-    Title: "CEO & founder",
-    Image: "",
-  },
-  {
-    name: "James Walker",
-    Title: "Ads manager",
-    Image: "",
-  },
-  {
-    name: "Jessica Morgan",
-    Title: "Vice president",
-    Image: "",
-  },
-  {
-    name: "Ashley Bennett",
-    Title: "Marketing & sales",
-    Image: "",
-  },
-  {
-    name: "Emlly Parker",
-    Title: "Content marketer",
-    Image: "",
-  },
-  {
-    name: "Ryan Mitchell",
-    Title: "Content writer",
-    Image: "",
-  },
-  {
-    name: "Megan Brooks",
-    Title: "Performance writer",
-    Image: "",
-  },
-  {
-    name: "Amber Foster",
-    Title: "Senior writer",
-    Image: "",
-  },
-];
-
-export const Names = [
   {
     name: "Haley Carter",
     Title: "CEO & founder",
