@@ -21,16 +21,19 @@ import Work_Dashboard_Management from "./Work_Dashboard_Management.png";
 import Work_Fitness_App from "./Work_Fitness_App.png";
 import Work_Mobile_App from "./Work_Mobile_App.png";
 
-export const assets = [
-  Facebook_icon,
-  Instagram_icon,
-  email_icon,
+export const company_logo = [
   Airbnd_Logo,
   Coinbase_Logo,
   Microsoft_Logo,
   Zoom_Logo,
   Google_Logo,
   Rakuten_Logo,
+];
+
+export const assets = [
+  Facebook_icon,
+  Instagram_icon,
+  email_icon,
   White_Theme_Dashboard,
   Dark_Theme_Dashboard,
   White_Theme_Icon1,
@@ -45,6 +48,7 @@ export const assets = [
   Work_Fitness_App,
   Work_Mobile_App,
 ];
+
 // All the characters name
 export const TeamData = [
   {
