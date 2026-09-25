@@ -1,6 +1,6 @@
 import Facebook_icon from "./Facebook_icon.svg";
 import Instagram_icon from "./Instagram_icon.svg";
-import email_icon from "./email_icon.svg";
+import Email_icon from "./email_icon.svg";
 import Airbnd_Logo from "./Airbnd_Logo.png";
 import Coinbase_Logo from "./Coinbase_Logo.png";
 import Microsoft_Logo from "./Microsoft_Logo.png";
@@ -20,6 +20,8 @@ import Dark_Theme_Icon4 from "./Dark_Theme_Icon4.png";
 import Work_Dashboard_Management from "./Work_Dashboard_Management.png";
 import Work_Fitness_App from "./Work_Fitness_App.png";
 import Work_Mobile_App from "./Work_Mobile_App.png";
+import White_Theme_Logo from "./White_Theme_Logo.png";
+import Dark_Theme_Logo from "./Dark_Theme_Logo.png";
 
 // company_logo
 export const company_logo = [
@@ -35,7 +37,7 @@ export const company_logo = [
 export const assets = [
   Facebook_icon,
   Instagram_icon,
-  email_icon,
+  Email_icon,
   White_Theme_Dashboard,
   Dark_Theme_Dashboard,
   White_Theme_Icon1,
@@ -49,6 +51,8 @@ export const assets = [
   Work_Dashboard_Management,
   Work_Fitness_App,
   Work_Mobile_App,
+  White_Theme_Logo,
+  Dark_Theme_Logo,
 ];
 
 console.log("hello world");
