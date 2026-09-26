@@ -18,7 +18,22 @@ const Navbar = ({ theme, setTheme }) => {
         }
         // Set the logo width for different screen sizes
         className="w-23 sm:w-40"
+        alt=""
       />
+      <div>
+        <a href="#" className="sm:hover:border-b">
+          Home
+        </a>
+        <a href="#Services" className="sm:hover:border-b">
+          Services
+        </a>
+        <a href="#Our-Work" className="sm:hover:border-b">
+          Our Work
+        </a>
+        <a href="#Contact-Us" className="sm:hover:border-b">
+          Contact Us
+        </a>
+      </div>
     </div>
   );
 };

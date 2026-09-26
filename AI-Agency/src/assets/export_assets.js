@@ -34,7 +34,7 @@ export const company_logo = [
 ];
 
 // Assets
-export const assets = [
+export const export_assets = [
   Facebook_icon,
   Instagram_icon,
   Email_icon,
