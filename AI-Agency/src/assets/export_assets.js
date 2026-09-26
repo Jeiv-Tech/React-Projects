@@ -1,7 +1,7 @@
 import Facebook_icon from "./Facebook_icon.svg";
 import Instagram_icon from "./Instagram_icon.svg";
 import Email_icon from "./email_icon.svg";
-import Airbnd_Logo from "./Airbnd_Logo.png";
+import Airbnb_Logo from "./Airbnb_Logo.png";
 import Coinbase_Logo from "./Coinbase_Logo.png";
 import Microsoft_Logo from "./Microsoft_Logo.png";
 import Zoom_Logo from "./Zoom_Logo.png";
@@ -25,7 +25,7 @@ import Dark_Theme_Logo from "./Dark_Theme_Logo.png";
 
 // company_logo
 export const company_logo = [
-  Airbnd_Logo,
+  Airbnb_Logo,
   Coinbase_Logo,
   Microsoft_Logo,
   Zoom_Logo,
