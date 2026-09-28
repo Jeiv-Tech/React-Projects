@@ -14,7 +14,7 @@ const Navbar = ({ theme, setTheme }) => {
         // Dark theme = White logo
         // Light theme = Dark logo
         src={
-          theme === "dark" ? assets.White_Theme_Logo : assets.Dark_Theme_Logo
+          theme === "dark" ? assets.Dark_Theme_Logo : assets.White_Theme_Logo
         }
         // Set the logo width for different screen sizes
         className="w-23 sm:w-40"

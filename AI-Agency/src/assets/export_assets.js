@@ -1,6 +1,6 @@
 import Facebook_icon from "./Facebook_icon.svg";
 import Instagram_icon from "./Instagram_icon.svg";
-import Email_icon from "./email_icon.svg";
+import Email_icon from "./Email_icon.svg";
 import Airbnb_Logo from "./Airbnb_Logo.png";
 import Coinbase_Logo from "./Coinbase_Logo.png";
 import Microsoft_Logo from "./Microsoft_Logo.png";
@@ -24,17 +24,17 @@ import White_Theme_Logo from "./White_Theme_Logo.png";
 import Dark_Theme_Logo from "./Dark_Theme_Logo.png";
 
 // company_logo
-export const company_logo = [
+export const company_logo = {
   Airbnb_Logo,
   Coinbase_Logo,
   Microsoft_Logo,
   Zoom_Logo,
   Google_Logo,
   Rakuten_Logo,
-];
+};
 
 // Assets
-export const export_assets = [
+export const assets = {
   Facebook_icon,
   Instagram_icon,
   Email_icon,
@@ -53,9 +53,7 @@ export const export_assets = [
   Work_Mobile_App,
   White_Theme_Logo,
   Dark_Theme_Logo,
-];
-
-console.log("hello world");
+};
 
 // All the characters name
 export const TeamData = [
