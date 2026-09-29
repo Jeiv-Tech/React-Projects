@@ -21,9 +21,10 @@ const Navbar = ({ theme, setTheme }) => {
         alt=""
       />
       <div
-        className="text-gray-700 dark:text-white sm:text-sm max-sm:w-60 max-sm:pl-10 max-sm:fixed
+        className={`text-gray-700 dark:text-white sm:text-sm max-sm:w-60 max-sm:pl-10 max-sm:fixed
        top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full max-sm:flex-col max-sm:bg-primary
-        max-sm:text-white max-sm:pt-20 flex sm:items-center gap-5 transition-all"
+        max-sm:text-white max-sm:pt-20 flex sm:items-center gap-5 transition-all 
+        ${theme === "dark" ? "text-white" : "text-gray-700"}`}
       >
         <a href="#" className="sm:hover:border-b">
           Home
@@ -41,8 +42,9 @@ const Navbar = ({ theme, setTheme }) => {
       <div>
         <a
           href="#contact-us"
-          className="text-sm max-sm:hidden flex item-center gap-2 
+          className={`text-sm max-sm:hidden flex item-center gap-2 
           bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-all"
+          ${theme === "dark" ? "text-white" : "text-gray-700"}`}
         >
           Connect <img src={assets.Arrow_icon} width={14} alt="" />
         </a>
