@@ -1,6 +1,7 @@
 import Facebook_icon from "./Facebook_icon.svg";
 import Instagram_icon from "./Instagram_icon.svg";
 import Email_icon from "./Email_icon.svg";
+import Arrow_icon from "./Arrow_icon.svg";
 import Airbnb_Logo from "./Airbnb_Logo.png";
 import Coinbase_Logo from "./Coinbase_Logo.png";
 import Microsoft_Logo from "./Microsoft_Logo.png";
@@ -38,6 +39,7 @@ export const assets = {
   Facebook_icon,
   Instagram_icon,
   Email_icon,
+  Arrow_icon,
   White_Theme_Dashboard,
   Dark_Theme_Dashboard,
   White_Theme_Icon1,
