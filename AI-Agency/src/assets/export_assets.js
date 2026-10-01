@@ -2,6 +2,11 @@ import Facebook_icon from "./Facebook_icon.svg";
 import Instagram_icon from "./Instagram_icon.svg";
 import Email_icon from "./Email_icon.svg";
 import Arrow_icon from "./Arrow_icon.svg";
+import Close_icon from "./Close_icon.svg";
+import Moon_icon from "./Moon_icon.svg";
+import Sun_icon from "./Sun_icon.svg";
+import Menu_icon from "./Menu_icon.svg";
+import Menu_icon_dark from "./Menu_icon_dark.svg";
 import Airbnb_Logo from "./Airbnb_Logo.png";
 import Coinbase_Logo from "./Coinbase_Logo.png";
 import Microsoft_Logo from "./Microsoft_Logo.png";
@@ -40,6 +45,11 @@ export const assets = {
   Instagram_icon,
   Email_icon,
   Arrow_icon,
+  Close_icon,
+  Moon_icon,
+  Sun_icon,
+  Menu_icon,
+  Menu_icon_dark,
   White_Theme_Dashboard,
   Dark_Theme_Dashboard,
   White_Theme_Icon1,
