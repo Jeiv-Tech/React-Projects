@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { assets } from "../assets/export_assets";
+import ThemeToggleBtn from "./ThemeToggleBtn";
 
 // Navbar component receives the current theme and the function to change the theme
 const Navbar = ({ theme, setTheme }) => {
+  // functions
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <div
@@ -23,6 +25,8 @@ const Navbar = ({ theme, setTheme }) => {
         className="w-23 sm:w-40"
       />
       <div
+        // text tailwind css navbar and mobile view
+
         className={`text-gray-700 dark:text-white sm:text-sm 
         ${!sidebarOpen ? "max-sm:w-0 overflow-hidden" : "max-sm:w-60 max-sm:pl-10"} max-sm:fixed
         top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full max-sm:flex-col max-sm:bg-primary
@@ -67,6 +71,8 @@ const Navbar = ({ theme, setTheme }) => {
       </div>
 
       <div className="flex items-center gap-2 sm-gap-4">
+        <ThemeToggleBtn theme={theme} setTheme={setTheme} />
+
         <img
           src={theme === "dark" ? assets.Menu_icon_dark : assets.Menu_icon}
           alt=""
