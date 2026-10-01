@@ -3,11 +3,19 @@ import { assets } from "../assets/export_assets";
 
 const ThemeToggleBtn = ({ theme, setTheme }) => {
   useEffect(() => {
+    const prefersDarkMode = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
+    setTheme(theme || (prefersDarkMode ? "dark" : "light"));
+  }, []);
+
+  useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   return (

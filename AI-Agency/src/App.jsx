@@ -5,7 +5,9 @@ const App = () => {
   // Create a theme state with "light" as the default theme
   // theme = current theme
   // setTheme = function used to change the theme
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ? localStorage.getItem("thme") : "light",
+  );
 
   return (
     // Main container of the application
