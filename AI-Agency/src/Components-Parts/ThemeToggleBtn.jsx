@@ -2,21 +2,28 @@ import { useEffect } from "react";
 import { assets } from "../assets/export_assets";
 
 const ThemeToggleBtn = ({ theme, setTheme }) => {
+  // Check the user's system/browser preference for dark mode
   useEffect(() => {
     const prefersDarkMode = window.matchMedia(
       "(prefers-color-scheme: dark)",
     ).matches;
-    setTheme(theme || (prefersDarkMode ? "dark" : "light"));
-  }, []);
 
+    // Set the theme to the current theme,
+    // or use the system preference if no theme is set
+    setTheme(theme || (prefersDarkMode ? "dark" : "light"));
+  });
+
+  // Run this whenever the "theme" value  / if statement of toggle
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
+
+    // Save the selected theme in the browser's localStorage
     localStorage.setItem("theme", theme);
-  }, [theme]);
+  }, [theme]); // This effect runs whenever "theme" changes
 
   return (
     <>
