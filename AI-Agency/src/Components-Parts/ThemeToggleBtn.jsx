@@ -27,7 +27,13 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
 
   return (
     <>
+      {/* Button that contains the theme icon */}
       <button>
+        {/* 
+        Check the current theme:
+        If the theme is "dark", show the Sun icon.
+        Clicking the Sun changes the theme to "light".
+       */}
         {theme === "dark" ? (
           <img
             onClick={() => setTheme("light")}
@@ -36,6 +42,11 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
             className="size-8.5 p-1.5 border border-gray-500 rounded-full"
           />
         ) : (
+          /*
+          If the theme is NOT dark (light mode),
+          show the Moon icon.
+          Clicking the Moon changes the theme to "dark".
+          */
           <img
             onClick={() => setTheme("dark")}
             src={assets.Moon_icon}

@@ -6,7 +6,7 @@ const App = () => {
   // Check localStorage to see if a theme was saved before.
   // If there is no saved theme, use "light" as the default.
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("thme") : "light",
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
   );
 
   return (
